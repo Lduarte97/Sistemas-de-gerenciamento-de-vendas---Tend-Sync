@@ -80,7 +80,58 @@ outros campos podem ser modificados/atualizados.
 ###
 6. Botão ocultar/mostrar senha: É o mesmo botão da tela de login e tela de cadastro que tem a função de mostrar ou ocultar a senha
 7. Botão Atualizar: Após fazer as modificações e as mesmas estivem com dados válidos de acordo com as validações da tela de cadastro, o botão irá confirmar e gravar as alterações no sistema.
-8. Botão Excluir conta: Botão realiza a exclusão definitiva do cadastro do usuário e todas as informações vinculadas a ele, sendo clicado aparecerá uma mensagem de confirmação informando que a conta será excluída permanentemente
+8. Botão Excluir conta: Botão realiza a exclusão definitiva do cadastro do usuário e todas as informações vinculadas a ele, sendo clicado aparecerá uma mensagem de confirmação:
+![imagem](telaperfilexclusao.png)
+9. Botão Voltar: Botão que leva o usuário de volta para a tela principal
+
+Ao clicar na opção "Yes" a sua conta será excluída e você será redirecionado para a tela de login, caso clique no "No" a exclusão é cancelada.
+
+## Cadastro de Produtos
+Tela onde os produtos da loja serão cadastrados, atualizados ou excluídos
+
+![imagem](cadastroprodutos.png)
+
+###
+1. Botão Voltar: Mesmo botão da tela perfil, que leva o usuário para a tela home
+2. Campo nome: Campo onde o usuário irá colocar o nome ou descrição do produto, tendo que ser um nome válido
+3. Estoque: Usuário irá selecionar a quantidade de estoque sendo a quantidade de 1 a 100, sendo o padrão, mas caso o usuário trabalhe com quantidades maiores de produtos pode solicitar ao desenvolvedor a mudança para quantidades maiores
+4. Tamanho: Seleção onde o usuário iráselecionar o tamanho das peças, não podendo deixar essa seleção em branco
+5. Campo preço: Campo onde o usuário sirá colocar o valor do produto, aceitando apenas números
+6. Botão Cadastrar: Botão que verifica os dados inseridos e se caso estejam todos corretos irá gravar o cadastro no sistema, e aparecerá a mensagem de sucesso do cadastro, caso algum dos dados estiver incorreto aparecerá uma mensagem de erro.
+
+![imagem](cadastrosucesso.png)
+
+7. Botão Atualizar: Botão para caso o usuário deseje fazer alguma alteração de preço, descrição, atualizar estoque. Para isso é necessário clicar na linha da tabela (10) que o produto está listado e os dados serão listados nos respectivos campos, então o usuário atualiza/edita os casmpos que desar e clica no botão Atualizar e caso os dados sejam válidos irá aparecer uma mensagem de sucesso.
+![imagem](atualizaçãosucesso.png)
+
+8. Botão Limpar: Botão quando clicado limpa os campos de cadastro e reseta as duas seleções de estoque e tamanho.
+9. Botão Excluir: Botão que exclui permanentemente o produto do sistema. para isso deve-se clicar no produto lsitado na tabela estoque (10), assim que os dados forem listados nos campos o usuário deve clicar no botão excluir, aparecerá uma mansagem de confirmação, caso o usuário confirme, o produto será excluído do sistema irá aparecer uma mensagem de sucesso da exclusão.
+![imagem](exclusao.png)
+
+Após confirmação, aparecerá a mensagem de concluído.
+![imagem](mensagemexclusao.png)
+
+10. Tabela Produtos: Tabela onde os produtos que estão cadastrados no sistema são listados.
+
+## Carrinho de Compras
+
+Tela onde o usuário irá realizar as vendas e também o cadastro dos clientes, e fazer a seleção dos clientes e produtos já cadastrados
+![imagem](telacarrinhocompras.png)
+###
+1. Botão voltar: Ao ser clicado leva o usuário de volta para a tela principal
+2. Campo de pesquisa cliente: Campo onde o usuário irá digitar o nome do cliente já cadastrado no sistema e o mesmo será listado na tabela clientes (3)
+3. Tabela Clientes: Tabela onde os clientes cadastrados no sistema ficam listados e também usada para cadastrar um novo cliente, basta clicar em alguma das linhas vazias e preencher os dados das respectivas colunas e teclar o "ENTER" do teclado e o cadastro será realizado.
+4. Campo pesquisa produtos: Tem mesma função do campo pesquisa clientes, porém para pesquisar os produtos que estão listados na tabela Produtos (6).
+5. Seleção de quantidade: Combo para o uusário definir a quantidade de produtos que selecionado para a venda.
+6. Tabela produtos: Tabela que lista os produtos que foram cadastrados no sistema, ista os mesmos produtos cadastrados na tabela da tela cadastro de produtos. Para selecionar o mesmo para a venda, basta clicar na linha do produto desejado e selecionar quantidade (5).
+7. Campo total venda: Campo onde aparece o total da venda de acordo com os produtos e as quantidades selecionados.
+8. Seleção de forma de pagamento: O usuário seleciona a forma de pagamento que o cliente escolher.
+9. Botão Finalizar Venda: Botão que registra a venda, caso todos os dados estejam corretos e emite uma mansagem de sucesso, caso tenha alguma informação incorreta ele irá emitir uma mensagem de erro.
+
+
+
+
+
 
 
 
