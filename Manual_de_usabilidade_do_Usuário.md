@@ -46,7 +46,7 @@ o usuário logar seus dados já vão estar listados nos campos
  
 10. Botão sair: Após finalizar seus cadastro ou mesmo que não deseje mais realizar o cadastro, quando desejar sair da tela de cadastro basta clicar no botão sair, aparecerá uma caixa de diálogo de confirmação, basta clicar no "OK" que será redirecionado para tela de login, caso clique em "Cancelar" a caixa de diálogo irá desaparecer.
 
-# Tela principal(Home)
+## Tela principal(Home)
 
 Tela home é a tela principal do sistema e tem todos os botões que levam o usuário a todas as telas dependendo da sua necessidade.
 
@@ -66,5 +66,22 @@ Tela home é a tela principal do sistema e tem todos os botões que levam o usu�
 6. Sobre: Informações sobre o sistema e o desenvolvedor e os canais de contato.
 
 7. Sair: Redireciona o usuário novamente para tela de login e encessa sua sessão.
-   
+
+
+## Tela perfil
+
+Nessa tela o usuário poderá modificar seus dados atualizando informações e até mesmo excluir a sua conta, porém para essa opção é necessário o estar convicto de que realmente deseja excluir a sua conta, pois após a confirmação a exclusão é permanente e irreversível.
+
+
+![imagem](telaperfil.png)
+
+Os campos 1,2,3,4 e 5 se tratam dos mesmos campos da tela de cadastro, com excessão docampo cpf (3) que é um documento único e não pode ser atualizado, todos os
+outros campos podem ser modificados/atualizados.
+###
+6. Botão ocultar/mostrar senha: É o mesmo botão da tela de login e tela de cadastro que tem a função de mostrar ou ocultar a senha
+7. Botão Atualizar: Após fazer as modificações e as mesmas estivem com dados válidos de acordo com as validações da tela de cadastro, o botão irá confirmar e gravar as alterações no sistema.
+8. Botão Excluir conta: Botão realiza a exclusão definitiva do cadastro do usuário e todas as informações vinculadas a ele, sendo clicado aparecerá uma mensagem de confirmação informando que a conta será excluída permanentemente
+
+
+
    
